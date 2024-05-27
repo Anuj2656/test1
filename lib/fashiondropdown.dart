@@ -23,29 +23,29 @@ class _FashionDropDownOptionsState extends State<FashionDropDownOptions> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        GestureDetector(
-          onTap: () {
-            setState(() {
-              showMenOptions = false;
-              showWomenOptions = false;
-              showKidOptions = false;
-            });
-          },
-          child: Row(
-            children: [
-              Text(
-                'Select Category',
-                style: TextStyle(fontSize: 18),
-              ),
-              Icon(
-                Icons.arrow_drop_down,
-                size: 30,
-                color: Colors.black,
-              ),
-            ],
-          ),
-        ),
-        SizedBox(height: 10),
+        // GestureDetector(
+        //   onTap: () {
+        //     setState(() {
+        //       showMenOptions = false;
+        //       showWomenOptions = false;
+        //       showKidOptions = false;
+        //     });
+        //   },
+        //   child: Row(
+        //     children: [
+        //       // Text(
+        //       //   'Select Category',
+        //       //   style: TextStyle(fontSize: 18),
+        //       // ),
+        //       // Icon(
+        //       //   Icons.arrow_drop_down,
+        //       //   size: 30,
+        //       //   color: Colors.black,
+        //       // ),
+        //     ],
+        //   ),
+        // ),
+        // SizedBox(height: 10),
         InkWell(
           onTap: () {
             setState(() {
